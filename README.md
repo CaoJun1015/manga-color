@@ -158,4 +158,3 @@ python -X utf8 <path-to-plugin-creator>/scripts/validate_plugin.py .
 - 默认 Native 模式记录平台实际返回的模型；未暴露模型名时记录 `platform-selected`，不会虚构为 `gpt-image-2`。
 - `desktop-full` 的线稿锁定来自本地不可变图层复合；`web-light` 只保证人工视觉一致，不保证像素级线稿一致。
 - 用户应确认对上传漫画和参考图拥有合法处理与发布权限。
-
