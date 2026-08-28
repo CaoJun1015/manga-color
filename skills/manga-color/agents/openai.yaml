@@ -1,0 +1,7 @@
+interface:
+  display_name: "Manga Color"
+  short_description: "跨 ChatGPT 与 Codex 的漫画人物线稿提取上色"
+  default_prompt: "使用 $manga-color 处理我上传的黑白漫画图和角色彩色参考图。"
+
+policy:
+  allow_implicit_invocation: true

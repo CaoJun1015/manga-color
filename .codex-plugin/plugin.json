@@ -1,0 +1,23 @@
+{
+  "name": "manga-color",
+  "version": "2.0.0",
+  "description": "Extract and color manga character line art with review gates on ChatGPT and Codex.",
+  "author": {
+    "name": "cj"
+  },
+  "keywords": ["manga", "coloring", "image-editing"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Manga Color",
+    "shortDescription": "提取漫画人物线稿并在 ChatGPT 与 Codex 中上色",
+    "longDescription": "使用内置图像编辑能力或可选 OpenAI API，完成漫画人物线稿清理、人工确认、角色参考上色和可移植任务交付。",
+    "developerName": "cj",
+    "category": "Creativity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "使用 $manga-color 处理我上传的黑白漫画图和角色彩色参考图。",
+      "使用 $manga-color 继续处理我上传的任务包。"
+    ],
+    "brandColor": "#202020"
+  }
+}
